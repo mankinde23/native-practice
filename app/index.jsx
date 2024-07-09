@@ -45,7 +45,7 @@ export default function HomeScreen() {
           </Text>
           <CustomButton
             title="Continue with email"
-            handelePress={() => router.push("/sign-in")}
+            handlePress={() => router.push("/sign-in")}
             containerStyles="w-full mt-7"
           />
         </View>
